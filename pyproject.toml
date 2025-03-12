@@ -1,0 +1,21 @@
+[project]
+name = "scaling-up-and-out"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.2.1",
+    "duckdb-engine>=0.15.0",
+    "ipywidgets>=8.1.5",
+    "jupysql>=0.11.0",
+    "jupyterlab>=4.3.5",
+    "matplotlib>=3.10.1",
+    "pandas>=2.2.3",
+    "polars>=0.20.31",
+    "pre-commit>=4.1.0",
+    "pyarrow>=16.1.0",
+    "ray[default]>=2.43.0",
+    "smallpond>=0.15.0",
+    "torch>=2.6.0",
+]
